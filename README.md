@@ -93,20 +93,25 @@ Response:
 
 ## 📦 Technologies Used
 ### Frontend
-React + Vite
-Tailwind CSS
-Axios
-Lucide Icons
+- React  
+- Vite  
+- Tailwind CSS  
+- Axios  
+- Lucide Icons  
 
 ### Backend
-FastAPI
-Pydantic
-OpenRouter / OpenAI API
-Wikipedia API (for RAG)
+- FastAPI  
+- Pydantic  
+- OpenRouter / OpenAI API  
+- Wikipedia API (for RAG)  
 
-### 🤖 Author
-Team BotMinds
-Keith Kaur Malli
-Ishatva Singh Panwar
-Pratham Bajaj
-Hritvik Mohan
+
+## 🤖 Author
+
+**Team BotMinds**  
+- Ishatva Singh Panwar  
+- Pratham Bajaj  
+- Hritvik Mohan  
+- Keith Kaur Malli  
+
+_B.E., NITTE Meenakshi Institute of Technology_
