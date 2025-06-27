@@ -10,8 +10,7 @@ Enter a debate topic and watch AI generate compelling opening statements, rebutt
 ![four](https://github.com/user-attachments/assets/fdbb9f24-aabb-44a0-97ec-296f80d8ac75)
 
 ## 🏗️ Project Structure
-<pre><code> 
-zero-shot-ai-debate-bot/
+<pre><code> zero-shot-ai-debate-bot/
 ├── backend/                 # FastAPI Backend
 │   ├── app/
 │   │   ├── main.py
@@ -109,9 +108,9 @@ Response:
 ## 🤖 Author
 
 **Team BotMinds**  
-- Ishatva Singh Panwar  
-- Pratham Bajaj  
+- Keith Kaur Malli
+- Ishatva Singh Panwar   
 - Hritvik Mohan  
-- Keith Kaur Malli  
+- Pratham Bajaj  
 
 _B.E., NITTE Meenakshi Institute of Technology_
