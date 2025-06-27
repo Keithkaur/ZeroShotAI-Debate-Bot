@@ -10,4 +10,34 @@ Enter a debate topic and watch AI generate compelling opening statements, rebutt
 ![four](https://github.com/user-attachments/assets/fdbb9f24-aabb-44a0-97ec-296f80d8ac75)
 
 ## 🏗️ Project Structure
-<pre><code>```text zero-shot-ai-debate-bot/ ├── backend/ # FastAPI Backend │ ├── app/ │ │ ├── main.py │ │ ├── routes/ │ │ │ └── debate.py │ │ ├── schema/ │ │ │ └── debate.py │ │ ├── services/ │ │ │ └── debate_engine.py │ │ └── utils/ │ │ └── rag_wikipedia.py │ └── requirements.txt ├── frontend/ # React + Vite + Tailwind Frontend │ ├── src/ │ │ ├── components/ │ │ │ ├── Header.jsx │ │ │ ├── TopicInput.jsx │ │ │ ├── DebateDisplayArea.jsx │ │ │ ├── ArgumentColumn.jsx │ │ │ ├── ArgumentCard.jsx │ │ │ ├── OverallVoteCounter.jsx │ │ │ └── Footer.jsx │ │ ├── App.jsx │ │ └── main.jsx │ └── vite.config.js └── README.md ```</code></pre>
+<pre><code>```text 
+              
+```text
+zero-shot-ai-debate-bot/
+├── backend/                 # FastAPI Backend
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── routes/
+│   │   │   └── debate.py
+│   │   ├── schema/
+│   │   │   └── debate.py
+│   │   ├── services/
+│   │   │   └── debate_engine.py
+│   │   └── utils/
+│   │       └── rag_wikipedia.py
+│   └── requirements.txt
+├── frontend/                # React + Vite + Tailwind Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.jsx
+│   │   │   ├── TopicInput.jsx
+│   │   │   ├── DebateDisplayArea.jsx
+│   │   │   ├── ArgumentColumn.jsx
+│   │   │   ├── ArgumentCard.jsx
+│   │   │   ├── OverallVoteCounter.jsx
+│   │   │   └── Footer.jsx
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── vite.config.js
+└── README.md
+  ```</code></pre>
