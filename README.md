@@ -10,7 +10,7 @@ Enter a debate topic and watch AI generate compelling opening statements, rebutt
 ![four](https://github.com/user-attachments/assets/fdbb9f24-aabb-44a0-97ec-296f80d8ac75)
 
 ## 🏗️ Project Structure
-<pre><code>```text 
+<pre><code> 
 zero-shot-ai-debate-bot/
 ├── backend/                 # FastAPI Backend
 │   ├── app/
@@ -50,5 +50,63 @@ zero-shot-ai-debate-bot/
 ✅ Wikipedia Retrieval (RAG)
 
 ## ▶️ Frontend Setup
+<pre><code> 
+cd frontend
+npm install
+npm run dev
+</code></pre>
 
+## 🧠 Backend Setup (FastAPI)
+<pre><code> 
+cd backend
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+</code></pre>
 
+## 🔁 API Endpoints
+### POST /debate/
+Request: 
+<pre><code>
+  {
+  "topic": "Is AI dangerous?"
+  }
+</code></pre>
+
+Response: 
+<pre><code>
+  {
+  "topic": "Is AI dangerous?",
+  "pro": {
+    "opening": "...",
+    "rebuttal": "...",
+    "closing": "..."
+  },
+  "con": {
+    "opening": "...",
+    "rebuttal": "...",
+    "closing": "..."
+  }
+}
+</code></pre>
+
+## 📦 Technologies Used
+### Frontend
+React + Vite
+Tailwind CSS
+Axios
+Lucide Icons
+
+### Backend
+FastAPI
+Pydantic
+OpenRouter / OpenAI API
+Wikipedia API (for RAG)
+
+### 🤖 Author
+Team BotMinds
+Keith Kaur Malli
+Ishatva Singh Panwar
+Pratham Bajaj
+Hritvik Mohan
