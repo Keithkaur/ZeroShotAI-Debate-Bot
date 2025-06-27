@@ -11,8 +11,6 @@ Enter a debate topic and watch AI generate compelling opening statements, rebutt
 
 ## 🏗️ Project Structure
 <pre><code>```text 
-              
-```text
 zero-shot-ai-debate-bot/
 ├── backend/                 # FastAPI Backend
 │   ├── app/
@@ -40,4 +38,17 @@ zero-shot-ai-debate-bot/
 │   │   └── main.jsx
 │   └── vite.config.js
 └── README.md
-  ```</code></pre>
+</code></pre>
+
+## ⚙️ Features
+✅ Zero-Shot Topic Understanding
+✅ Structured Debate Format
+✅ Dual AI Personas (Pro vs. Con)
+✅ Like/Dislike Feedback System
+✅ Vote Counter Display
+✅ FastAPI Backend with OpenRouter API
+✅ Wikipedia Retrieval (RAG)
+
+## ▶️ Frontend Setup
+
+
