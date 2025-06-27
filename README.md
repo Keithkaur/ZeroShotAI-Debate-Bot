@@ -39,14 +39,15 @@ Enter a debate topic and watch AI generate compelling opening statements, rebutt
 └── README.md
 </code></pre>
 
-## ⚙️ Features
-✅ Zero-Shot Topic Understanding
-✅ Structured Debate Format
-✅ Dual AI Personas (Pro vs. Con)
-✅ Like/Dislike Feedback System
-✅ Vote Counter Display
-✅ FastAPI Backend with OpenRouter API
-✅ Wikipedia Retrieval (RAG)
+## ✅ Features
+
+- ✅ Zero-Shot Topic Understanding  
+- ✅ Structured Debate Format  
+- ✅ Dual AI Personas (Pro vs. Con)  
+- ✅ Like/Dislike Feedback System  
+- ✅ Vote Counter Display  
+- ✅ FastAPI Backend with OpenRouter API  
+- ✅ Wikipedia Retrieval (RAG)  
 
 ## ▶️ Frontend Setup
 <pre><code> 
